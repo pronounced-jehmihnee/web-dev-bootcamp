@@ -1,0 +1,44 @@
+body {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+table {
+  margin:auto;
+
+}
+
+td {
+  width: 100px;
+  height: 100px;
+}
+
+#cell2 {
+  border-left: 2px solid teal;
+  border-right: 2px solid teal;
+}
+
+#cell4 {
+  border-top: 2px solid teal;
+  border-bottom: 2px solid teal;
+}
+
+#cell5 {
+  border-top: 2px solid teal;
+  border-bottom: 2px solid teal;
+  border-left: 2px solid teal;
+  border-right: 2px solid teal;
+}
+
+#cell6 {
+  border-top: 2px solid teal;
+  border-bottom: 2px solid teal;
+}
+
+#cell8 {
+  border-left: 2px solid teal;
+  border-right: 2px solid teal;
+}

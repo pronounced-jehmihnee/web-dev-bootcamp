@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    <h1>Register</h1>
+
+    <form class="registerForm">
+      <label for="firstName">First Name: </label>
+      <input type="text" name="firstName" placeholder="Jane" required="true">
+
+      <label for="lastName">Last Name: </label>
+      <input type="text" name="lastName" placeholder="Doe" required="true">
+      <br>
+
+      <label for="genderMale">Male</label>
+      <input type="radio" name="gender" value="Male">
+      <label for="genderFemale">Female</label>
+      <input type="radio" name="gender" value="Female">
+      <label for="genderOther">Other</label>
+      <input type="radio" name="gender" value="Other">
+      <br>
+
+      <label for="email">Email:</label>
+      <input type="email" name="email" placeholder="your email" required>
+
+      <label for="password">Password</label>
+      <input type="password" name="password" value="" minlength="5" maxlength="10" required>
+      <br>
+
+      <label for="birthdayMonth">Birthday: </label>
+      <select name="birthdayMonth" required>
+        <option value="Jan">Jan</option>
+        <option value="Feb">Feb</option>
+        <option value="Mar">Mar</option>
+        <option value="Apr">Apr</option>
+        <option value="May">May</option>
+      </select>
+      <select name="birthdayDate" required>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
+      <select name="birthdayYear" required>
+        <option value="1990">1990</option>
+        <option value="1991">1991</option>
+        <option value="1992">1992</option>
+        <option value="1993">1993</option>
+        <option value="1994">1994</option>
+      </select>
+
+      <br>
+
+      <label for="agree">I agree to the terms and conditions</label>
+      <input type="checkbox" name="agree" value="true" required="true">
+
+      <br>
+
+      <button type="submit" name="button">Submit</button>
+
+    </form>
+
+  </body>
+</html>
